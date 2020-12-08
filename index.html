@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Bikcraft | Bicicletas Personalizadas</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="../public/css/landing-page.css" />
+    <link rel="stylesheet" href="../public/css/reset.css" />
+    <link rel="stylesheet" href="../public/css/animations.css" />
+    <link rel="stylesheet" href="../public/css/navbar.css" />
+    <link rel="stylesheet" href="../public/css/sidebar.css" />
+    <link rel="stylesheet" href="../public/css/footer.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="logo">
+        <a href="index.html">
+          <img src="../public/images/bikcraft.svg" alt="Bikcraft Logo" />
+        </a>
+      </div>
+
+      <nav role="navigation">
+        <div id="menuToggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+
+          <ul id="menu">
+            <ul class="bicycles">
+              <li>
+                <a id="tipography" href="../views/bicycles.html">Bicicletas</a>
+                <ul>
+                  <li class="frame"><a href="#">Mountain</a></li>
+                  <li class="frame"><a href="#">Road</a></li>
+                  <li class="frame"><a href="#">Urban</a></li>
+                  <li class="frame"><a href="#">Fixed</a></li>
+                  <li class="frame"><a href="#">Kids</a></li>
+                </ul>
+              </li>
+            </ul>
+            <a class="font" href="#"><li>Portfólio</li></a>
+            <a class="font" href="../views/history.html"><li>História</li></a>
+            <a class="font" href="#"><li>Contato</li></a>
+            <a class="blog" href="#"><li id="blog">Blog</li></a>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section class="introduction">
+      <blockquote>
+        <div class="phrase container">
+          <p>
+            “Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book.”
+          </p>
+        </div>
+
+        <div class="cite">
+          <img
+            class="line"
+            src="../public/images/linha-header.png"
+            alt="Line"
+          />
+          <cite>LOREM IPSUM</cite>
+        </div>
+
+        <div class="arrow container">
+          <img src="../public/images/seta.png" alt="Arrow" />
+        </div>
+      </blockquote>
+    </section>
+
+    <section>
+      <div class="carousel">
+        <div id="carousel-images">
+          <img
+            src="../public/images/home/products/with-filter/fixed-filter.jpg"
+            alt="FIXED"
+          />
+          <img
+            src="../public/images/home/products/with-filter/mtb-filter.jpg"
+            alt="MTB"
+          />
+          <img
+            src="../public/images/home/products/with-filter/road-filter.jpg"
+            alt="ROAD"
+          />
+          <img
+            src="../public/images/home/products/with-filter/urban-filter.jpg"
+            alt="URBAN"
+          />
+        </div>
+      </div>
+
+      <div class="carousel-btn">
+        <a href="../views/bicycles.html"><button>Saiba Mais</button></a>
+      </div>
+    </section>
+
+    <section id="portfolio">
+      <div id="sectionName">
+        <h1>Portfólio</h1>
+      </div>
+
+      <div id="yellowFrame">
+        <div class="clients">
+          <img
+            class="mySlides"
+            src="../public/images/home/portfolio/portfolio.png"
+            alt="Bikcraft Clients"
+          />
+          <img
+            class="mySlides"
+            src="../public/images/home/portfolio/portfolio-1.png"
+            alt="Bikcraft Clients"
+          />
+          <img
+            class="mySlides"
+            src="../public/images/home/portfolio/portfolio-2.png"
+            alt="Bikcraft Clients"
+          />
+
+          <div class="commentary box container">
+            <p class="container">
+              “Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.”
+            </p>
+          </div>
+        </div>
+
+        <div class="data">
+          <h1>Lorem Ipsum</h1>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </p>
+
+          <div class="clientsFigure">
+            <img
+              src="../public/images/home/portfolio/men-portfolio.png"
+              alt="Bikcraft Clients"
+            />
+          </div>
+        </div>
+
+        <script>
+          var myIndex = 0;
+          carousel();
+
+          function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) {
+              myIndex = 1;
+            }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 9000);
+          }
+        </script>
+      </div>
+    </section>
+
+    <section id="footer">
+      <div>
+        <img src="../public/images/home/footer/filter-image.png" alt="Footer" />
+
+        <blockquote class="phraseFooter">
+          <div class="frase container">
+            <p>
+              “Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.”
+            </p>
+          </div>
+
+          <div class="cite">
+            <img
+              class="lineFooter"
+              src="../public/images/linha-header.png"
+              alt="Line"
+            />
+            <cite>LOREM IPSUM</cite>
+          </div>
+        </blockquote>
+      </div>
+
+      <div id="brandsInformations">
+        <h3>Contato</h3>
+        <img
+          class="lineImgContact"
+          src="../public/images/line-footer.png"
+          alt="LINE"
+        />
+
+        <div class="informations">
+          <ul>
+            <li>Tel: (11) 99999-9999</li>
+            <li>E-mail: contato@bikcraft.com</li>
+            <li>Rua das Bicicletas, Botafogo - RJ</li>
+          </ul>
+        </div>
+      </div>
+
+      <div>
+        <div class="socialMedia">
+          <h3>Redes Sociais</h3>
+          <img
+            class="lineImgMedia"
+            src="../public/images/line-footer.png"
+            alt="LINE"
+          />
+
+          <ul id="imgMedia">
+            <li>
+              <a href="http://facebook.com" target="_blank"
+                ><img
+                  src="../public/images/home/footer/redes-sociais/facebook.svg"
+                  alt="Facebook Bikcraft"
+              /></a>
+            </li>
+            <li>
+              <a href="http://instagram.com" target="_blank"
+                ><img
+                  src="../public/images/home/footer/redes-sociais/instagram.svg"
+                  alt="Instagram Bikcraft"
+              /></a>
+            </li>
+            <li>
+              <a href="http://twitter.com" target="_blank"
+                ><img
+                  src="../public/images/home/footer/redes-sociais/twitter.svg"
+                  alt="Twitter Bikcraft"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="finalFooter container">
+        <p>Bikcraft - Todos os direitos reservados</p>
+      </div>
+    </section>
+  </body>
+</html>
