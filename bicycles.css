@@ -1,0 +1,503 @@
+/* Introduction */
+#introduction {
+  width: 100%;
+  height: 700px;
+  background: url("../images/bicycles/header-image.png") no-repeat center;
+  background-size: cover;
+  margin-top: 90px;
+}
+
+#introduction h1 {
+  color: #ffffff;
+  font-size: 60px;
+  text-transform: uppercase;
+  text-align: right;
+
+  padding-right: 40px;
+  padding-top: 240px;
+}
+
+.arrow {
+  width: 100%;
+  height: 20px;
+
+  padding-top: 100px;
+}
+
+.phrase {
+  color: #ffffff;
+  text-align: right;
+
+  padding-left: 980px;
+  padding-right: 40px;
+}
+
+.line {
+  text-align: right;
+  position: static;
+
+  padding-top: 15px;
+  padding-left: 1275px;
+  padding-right: 40px;
+  padding-bottom: 30px;
+}
+/* End Introduction */
+
+/* Modalities | MTB*/
+.modalities {
+  margin-top: 80px;
+  margin-left: 30px;
+}
+
+#mtb img {
+  width: 600px;
+  height: 480px;
+
+  border: #fec63e 4px solid;
+
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+
+  display: flex;
+}
+
+.mtb-flex {
+  background-color: #242424;
+  width: 650px;
+  height: 538px;
+
+  display: flex;
+  float: right;
+
+  margin-top: -538px;
+  margin-right: 30px;
+}
+
+#mtb h3 {
+  color: #fec63e;
+  text-transform: uppercase;
+  font-size: 28px;
+  font-weight: lighter;
+
+  padding-top: 80px;
+  padding-bottom: 420px;
+}
+
+.lineModalities {
+  float: right;
+  position: absolute;
+
+  margin-top: 140px;
+  margin-left: 977px;
+}
+
+#mtb p {
+  color: #fec63e;
+
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+
+  padding-top: 200px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 200px;
+}
+
+.mtbButton a button {
+  width: 450px;
+  height: 50px;
+
+  position: absolute;
+
+  margin-top: -100px;
+  margin-left: 815px;
+
+  background-color: #fec63e;
+  border-radius: none;
+
+  text-decoration: none;
+  text-transform: uppercase;
+
+  border: #fec63e 4px solid;
+  cursor: pointer;
+}
+
+.mtbButton a button:hover {
+  transition: 1s;
+  border: #fec63e 1px solid;
+
+  color: #fec63e;
+  background-color: #000000;
+}
+/* End Modalities | MTB*/
+
+/* Modalities | ROAD*/
+.modalitiesRoad {
+  margin-top: 80px;
+  margin-left: 30px;
+}
+
+#road img {
+  width: 600px;
+  height: 480px;
+
+  border: #fec63e 4px solid;
+
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+
+  display: flex;
+  float: right;
+
+  margin-top: 0px;
+  margin-right: 24px;
+  margin-bottom: 80px;
+}
+
+.road-flex {
+  background-color: #242424;
+  width: 650px;
+  height: 538px;
+
+  display: flex;
+  float: left;
+
+  margin-top: 0px;
+  margin-left: -25px;
+  margin-bottom: 80px;
+}
+
+#road h3 {
+  color: #fec63e;
+  text-transform: uppercase;
+  font-size: 28px;
+  font-weight: lighter;
+
+  padding-top: 80px;
+  padding-bottom: 420px;
+}
+
+.lineModalitiesRoad {
+  float: left;
+  position: absolute;
+
+  margin-top: 140px;
+  margin-left: 235px;
+}
+
+#road p {
+  color: #fec63e;
+
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+
+  padding-top: 200px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 200px;
+}
+
+.roadButton a button {
+  position: absolute;
+  width: 450px;
+  height: 50px;
+
+  margin-top: 435px;
+  margin-left: -550px;
+
+  background-color: #fec63e;
+  border-radius: none;
+
+  text-decoration: none;
+  text-transform: uppercase;
+
+  border: #fec63e 4px solid;
+  cursor: pointer;
+}
+
+.roadButton a button:hover {
+  transition: 1s;
+  border: #fec63e 1px solid;
+
+  color: #fec63e;
+  background-color: #000000;
+}
+/* End Modalities | ROAD */
+
+/* Modalities | URBAN*/
+#urban img {
+  width: 600px;
+  height: 480px;
+
+  border: #fec63e 4px solid;
+
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+
+  display: flex;
+}
+
+.urban-flex {
+  background-color: #242424;
+  width: 650px;
+  height: 538px;
+
+  display: flex;
+  float: right;
+
+  margin-top: -538px;
+  margin-right: 30px;
+}
+
+#urban h3 {
+  color: #fec63e;
+  text-transform: uppercase;
+  font-size: 28px;
+  font-weight: lighter;
+
+  padding-top: 80px;
+  padding-bottom: 420px;
+}
+
+.lineModalitiesUrban {
+  float: right;
+  position: absolute;
+
+  margin-top: 755px;
+  margin-left: 977px;
+}
+
+#urban p {
+  color: #fec63e;
+
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+
+  padding-top: 200px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 200px;
+}
+
+.urbanButton a button {
+  width: 450px;
+  height: 50px;
+
+  position: absolute;
+
+  margin-top: -100px;
+  margin-left: 815px;
+
+  background-color: #fec63e;
+  border-radius: none;
+
+  text-decoration: none;
+  text-transform: uppercase;
+
+  border: #fec63e 4px solid;
+  cursor: pointer;
+}
+
+.urbanButton a button:hover {
+  transition: 1s;
+  border: #fec63e 1px solid;
+
+  color: #fec63e;
+  background-color: #000000;
+}
+/* End Modalities | URBAN */
+
+/* Modalities | FIXED */
+.modalitiesFixed {
+  margin-top: 80px;
+  margin-left: 30px;
+}
+
+#fixed img {
+  width: 600px;
+  height: 480px;
+
+  border: #fec63e 4px solid;
+
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+
+  display: flex;
+  float: right;
+
+  margin-top: 0px;
+  margin-right: 24px;
+  margin-bottom: 80px;
+}
+
+.fixed-flex {
+  background-color: #242424;
+  width: 650px;
+  height: 538px;
+
+  display: flex;
+  float: left;
+
+  margin-top: 0px;
+  margin-left: -25px;
+  margin-bottom: 80px;
+}
+
+#fixed h3 {
+  color: #fec63e;
+  text-transform: uppercase;
+  font-size: 28px;
+  font-weight: lighter;
+
+  padding-top: 80px;
+  padding-bottom: 420px;
+}
+
+.lineModalitiesFixed {
+  float: left;
+  position: absolute;
+
+  margin-top: 140px;
+  margin-left: 235px;
+}
+
+#fixed p {
+  color: #fec63e;
+
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+
+  padding-top: 200px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 200px;
+}
+
+.fixedButton a button {
+  position: absolute;
+  width: 450px;
+  height: 50px;
+
+  margin-top: 435px;
+  margin-left: -550px;
+
+  background-color: #fec63e;
+  border-radius: none;
+
+  text-decoration: none;
+  text-transform: uppercase;
+
+  border: #fec63e 4px solid;
+  cursor: pointer;
+}
+
+.fixedButton a button:hover {
+  transition: 1s;
+  border: #fec63e 1px solid;
+
+  color: #fec63e;
+  background-color: #000000;
+}
+/* End Modalities | FIXED */
+
+/* Modalities | KIDS */
+.modalitiesKids {
+  margin-top: 80px;
+}
+
+#kids img {
+  width: 600px;
+  height: 480px;
+
+  border: #fec63e 4px solid;
+
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+
+  display: flex;
+}
+
+.kids-flex {
+  background-color: #242424;
+  width: 650px;
+  height: 538px;
+
+  display: flex;
+  float: right;
+
+  margin-top: -538px;
+  margin-right: 30px;
+}
+
+#kids h3 {
+  color: #fec63e;
+  text-transform: uppercase;
+  font-size: 28px;
+  font-weight: lighter;
+
+  padding-top: 80px;
+  padding-bottom: 420px;
+}
+
+.lineModalitiesKids {
+  float: right;
+  position: absolute;
+
+  margin-top: 760px;
+  margin-left: 977px;
+}
+
+#kids p {
+  color: #fec63e;
+
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+
+  padding-top: 200px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 200px;
+}
+
+.kidsButton a button {
+  width: 450px;
+  height: 50px;
+
+  position: absolute;
+
+  margin-top: -100px;
+  margin-left: 815px;
+
+  background-color: #fec63e;
+  border-radius: none;
+
+  text-decoration: none;
+  text-transform: uppercase;
+
+  border: #fec63e 4px solid;
+  cursor: pointer;
+}
+
+.kidsButton a button:hover {
+  transition: 1s;
+  border: #fec63e 1px solid;
+
+  color: #fec63e;
+  background-color: #000000;
+}
+/* End Modalities | KIDS */
