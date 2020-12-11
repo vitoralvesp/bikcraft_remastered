@@ -1,0 +1,124 @@
+/* Introduction */
+.entranceHeader {
+  width: 600px;
+  height: 550px;
+
+  margin-top: 140px;
+  margin-left: 415px;
+
+  color: #fff;
+  display: block;
+  float: left;
+
+  border: #fec63e 4px solid;
+}
+
+.entranceHeader h1 {
+  text-transform: uppercase;
+  font-size: 48px;
+
+  padding-top: 140px;
+  padding-bottom: 0px;
+}
+
+.entranceHeader img {
+  padding-left: 250px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.entranceHeader p {
+  padding-top: 20px;
+  padding-right: 50px;
+  padding-left: 50px;
+
+  font-size: 14px;
+  font-style: italic;
+
+  margin: 0;
+}
+
+#imagesHeader {
+  position: absolute;
+  display: flex;
+
+  margin-top: 140px;
+}
+
+.imgLeft img {
+  width: 280px;
+  height: 500px;
+  margin-left: 40px;
+  margin-right: 690px;
+
+  border: #fec63e 4px solid;
+  padding: 25px;
+}
+
+.imgRight img {
+  width: 280px;
+  height: 500px;
+  margin-right: 40px;
+
+  border: #fec63e 4px solid;
+  padding: 25px;
+}
+
+.arrow {
+  position: absolute;
+  margin-top: 635px;
+}
+/* End Introduction */
+
+/* Clients and Products */
+#clientsAndProducts blockquote {
+  background: url("../images/portfolio/girl-singing.png") no-repeat center;
+  background-size: cover;
+
+  width: 100%;
+  height: 400px;
+
+  margin-top: 150px;
+  margin-bottom: 500px;
+
+  color: #fff;
+  display: block;
+  float: left;
+}
+
+.clientPhrase div {
+  margin-top: 100px;
+  margin-left: 250px;
+  margin-right: 250px;
+
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 30px;
+
+  border: #fec63e 1px solid;
+}
+
+.clientPhrase p {
+  font-size: 14px;
+
+  padding-top: 30px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 40px;
+}
+
+.clientPhrase img {
+  display: block;
+  float: right;
+
+  margin-top: -20px;
+  margin-right: 408px;
+}
+
+.clientPhrase div cite {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: normal;
+}
+
+
