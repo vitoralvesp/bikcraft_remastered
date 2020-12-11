@@ -1,0 +1,90 @@
+/* Introduction */
+.arrowMtb {
+  width: 100%;
+  height: 20px;
+
+  padding-top: 200px;
+}
+
+#introductionMtb {
+  margin-top: 90px;
+
+  width: 100%;
+  height: 700px;
+
+  background-image: url("../images/modalities/mtb/mtb-filter.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#introductionMtb h1,
+#introductionMtb p,
+.lineInt {
+  margin-top: 300px;
+}
+
+#introductionMtb h1 {
+  position: absolute;
+
+  font-size: 70px;
+  color: #f1f1f1;
+  text-transform: uppercase;
+
+  margin-top: 7%;
+}
+
+#introductionMtb p {
+  padding-top: 70px;
+  padding-bottom: 0%;
+
+  padding-left: 300px;
+  padding-right: 300px;
+
+  color: #f1f1f1;
+}
+
+.lineInt {
+  position: absolute;
+
+  width: 170px;
+  height: 5px;
+
+  margin-top: 8%;
+  margin-bottom: 6%;
+}
+
+/* End Introduction */
+
+/* Products */
+#products {
+  display: flex;
+}
+
+.imagesOfProducts img {
+  display: flex;
+
+  width: 607px;
+  height: 400px;
+
+  margin-top: 80px;
+  margin-bottom: -30px;
+
+  border: #fec36e 4px solid;
+
+  padding: 25px;
+}
+
+.mtbFlexOne {
+  display: flex;
+  float: left;
+
+  margin-left: 30px;
+}
+
+.mtbFlexTwo {
+  display: flex;
+  float: right;
+
+  margin-right: 30px;
+}
