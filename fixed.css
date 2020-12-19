@@ -1,0 +1,89 @@
+/* Introduction */
+.arrowFixed {
+  width: 100%;
+  height: 20px;
+
+  padding-top: 135px;
+}
+
+#introductionFixed {
+  margin-top: 90px;
+
+  width: 100%;
+  height: 700px;
+
+  background-image: url("../images/modalities/fixed/fixed-filter.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#introductionFixed h1,
+#introductionFixed p {
+  margin-top: 450px;
+}
+
+#introductionFixed h1 {
+  position: absolute;
+
+  font-size: 70px;
+  color: #f1f1f1;
+  text-transform: uppercase;
+
+  margin-top: 7%;
+}
+
+#introductionFixed p {
+  padding-top: 0px;
+  padding-bottom: 0%;
+
+  padding-left: 300px;
+  padding-right: 300px;
+
+  color: #f1f1f1;
+}
+
+.lineIntFixed {
+  position: absolute;
+
+  width: 170px;
+  height: 5px;
+
+  margin-top: 8%;
+  margin-bottom: 6%;
+}
+
+/* End Introduction */
+
+/* Products */
+#productsFixed {
+  display: flex;
+}
+
+.imagesOfProductsFixed img {
+  display: flex;
+
+  width: 607px;
+  height: 400px;
+
+  margin-top: 80px;
+  margin-bottom: -30px;
+
+  border: #fec63e 4px solid;
+
+  padding: 25px;
+}
+
+.fixedFlexOne {
+  display: flex;
+  float: left;
+
+  margin-left: 30px;
+}
+
+.fixedFlexTwo {
+  display: flex;
+  float: right;
+
+  margin-right: 30px;
+}
